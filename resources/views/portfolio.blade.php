@@ -39,10 +39,6 @@
             overflow-x: hidden;
         }
         
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 800;
-        }
-        
         /* Navbar */
         .navbar {
             background: rgba(15, 23, 42, 0.95) !important;
@@ -99,24 +95,9 @@
             align-items: center;
             position: relative;
             overflow: hidden;
-            background-image: url('{{ asset("assets/img/dataanalytics.jpg") }}');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
         }
         
         .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%);
-            z-index: 0;
-        }
-        
-        .hero-section::after {
             content: '';
             position: absolute;
             top: 0;
@@ -219,35 +200,9 @@
             background: var(--card-bg);
             border-radius: 20px;
             padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
             height: 100%;
-            position: relative;
-            overflow: hidden;
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            inset: -1px;
-            background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75));
-            z-index: 0;
-            border-radius: 20px;
-        }
-        
-        .feature-card > * {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .feature-card h4 {
-            color: #ffffff;
-            font-weight: 700;
-        }
-        
-        .feature-card p {
-            color: #e2e8f0 !important;
         }
         
         .feature-card:hover {
@@ -512,11 +467,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 hero-content">
                     <h1 class="hero-title">
-                        AI-Powered Digital<br>
+                        We Build Digital<br>
                         <span class="gradient-text">Experiences</span>
                     </h1>
                     <p class="hero-subtitle">
-                        Leveraging artificial intelligence to deliver solutions with unprecedented speed and precision
+                        Crafting innovative solutions that transform ideas into reality
                     </p>
                     <div class="d-flex gap-3 flex-wrap">
                         <a href="#portfolio" class="btn btn-primary-custom">View Our Work</a>
@@ -535,7 +490,7 @@
             
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 animate-on-scroll">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/webdevelopment.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-code-slash"></i>
                         </div>
@@ -545,7 +500,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.1s;">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/mobileappdevelopment.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-phone"></i>
                         </div>
@@ -555,7 +510,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.2s;">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/uiuxdesign.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-palette"></i>
                         </div>
@@ -565,7 +520,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.3s;">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/cloudsolutions.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-cloud"></i>
                         </div>
@@ -575,7 +530,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.4s;">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/dataanalytics.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-graph-up"></i>
                         </div>
@@ -585,7 +540,7 @@
                 </div>
                 
                 <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.5s;">
-                    <div class="feature-card" style="background-image: url('{{ asset('assets/img/security.jpg') }}'); background-size: cover; background-position: center;">
+                    <div class="feature-card">
                         <div class="feature-icon">
                             <i class="bi bi-shield-check"></i>
                         </div>
@@ -740,7 +695,7 @@
                             </div>
                             <div>
                                 <h5>Email Us</h5>
-                                <p>info@sigmixlabs.com</p>
+                                <p>contact@sigmixlabs.com</p>
                             </div>
                         </div>
                         
@@ -750,7 +705,7 @@
                             </div>
                             <div>
                                 <h5>Call Us</h5>
-                                <p>+92 303 4969407</p>
+                                <p>+1 (555) 123-4567</p>
                             </div>
                         </div>
                         
@@ -760,7 +715,7 @@
                             </div>
                             <div>
                                 <h5>Visit Us</h5>
-                                <p>471/1, Block D, Phase 5, DHA Lahore</p>
+                                <p>123 Innovation Street, Tech City, TC 12345</p>
                             </div>
                         </div>
                         
