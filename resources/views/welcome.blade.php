@@ -20,10 +20,10 @@
         :root {
             --primary-color: #6366f1;
             --secondary-color: #8b5cf6;
-            --dark-bg: #0f172a;
-            --card-bg: #1e293b;
-            --text-light: #cbd5e1;
-            --text-muted: #94a3b8;
+            --dark-bg: #ffffff;
+            --card-bg: #f8f9fa;
+            --text-light: #1e293b;
+            --text-muted: #64748b;
         }
         
         * {
@@ -34,7 +34,7 @@
         
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
             color: var(--text-light);
             overflow-x: hidden;
         }
@@ -45,9 +45,9 @@
         
         /* Navbar */
         .navbar {
-            background: rgba(15, 23, 42, 0.95) !important;
+            background: rgba(255, 255, 255, 0.95) !important;
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
         
@@ -112,7 +112,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, rgba(248, 249, 250, 0.7) 100%);
             z-index: 0;
         }
         
@@ -139,7 +139,7 @@
             font-weight: 800;
             line-height: 1.2;
             margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #ffffff, var(--text-light));
+            background: linear-gradient(135deg, #0f172a, #1e293b);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -212,7 +212,7 @@
         
         /* About Section */
         .about-section {
-            background: rgba(30, 41, 59, 0.5);
+            background: rgba(248, 249, 250, 0.5);
         }
         
         .feature-card {
@@ -231,7 +231,7 @@
             content: '';
             position: absolute;
             inset: -1px;
-            background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75));
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.65), rgba(248, 249, 250, 0.6));
             z-index: 0;
             border-radius: 20px;
         }
@@ -242,12 +242,12 @@
         }
         
         .feature-card h4 {
-            color: #ffffff;
+            color: #0f172a;
             font-weight: 700;
         }
         
         .feature-card p {
-            color: #e2e8f0 !important;
+            color: #475569 !important;
         }
         
         .feature-card:hover {
@@ -270,14 +270,14 @@
         
         /* Portfolio Grid */
         .portfolio-section {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
         }
         
         .project-card {
             background: var(--card-bg);
             border-radius: 20px;
             overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
             transition: all 0.4s ease;
             cursor: pointer;
             height: 100%;
@@ -294,7 +294,7 @@
         .project-image {
             width: 100%;
             height: 250px;
-            background: linear-gradient(135deg, #1e293b, #334155);
+            background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -341,7 +341,7 @@
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            color: white;
+            color: #0f172a;
         }
         
         .project-description {
@@ -369,14 +369,14 @@
         
         /* Contact Section */
         .contact-section {
-            background: rgba(30, 41, 59, 0.5);
+            background: rgba(248, 249, 250, 0.5);
         }
         
         .contact-info {
             background: var(--card-bg);
             border-radius: 20px;
             padding: 3rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
         }
         
         .contact-item {
@@ -410,8 +410,8 @@
         
         /* Footer */
         footer {
-            background: rgba(15, 23, 42, 0.95);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.95);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
             padding: 3rem 0;
         }
         
@@ -420,7 +420,7 @@
             height: 45px;
             border-radius: 50%;
             background: var(--card-bg);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -603,120 +603,47 @@
             <h2 class="section-title animate-on-scroll">Our Portfolio</h2>
             <p class="section-subtitle animate-on-scroll">Recent projects showcasing our expertise</p>
             
-            <div class="row g-4">
-                <!-- Project 1 -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll">
+            <div class="row g-4 justify-content-center">
+                <!-- Project 1: Sports Management System -->
+                <div class="col-md-10 col-lg-8 animate-on-scroll">
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="bi bi-cart-check"></i>
+                            <i class="bi bi-trophy"></i>
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <h3 class="project-title">All-in-One Sports Management System</h3>
                             <p class="project-description">
-                                A fully-featured e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.
+                                A comprehensive SaaS platform built from the ground up to revolutionize how football clubs manage their operations. Serving San Jose Rush Soccer and multiple youth leagues across the US, the system handles everything from player registrations to performance analytics, providing a seamless experience for administrators, coaches, players, and parents.
                             </p>
-                            <div class="project-tags">
+                            <div class="mb-3">
+                                <h5 style="font-size: 1rem; font-weight: 600; color: #0f172a;">Key Features:</h5>
+                                <ul style="font-size: 0.9rem; line-height: 1.8; color: #475569;">
+                                    <li><strong style="color: #0f172a;">Team & Player Management:</strong> Complete roster management with player profiles, medical records, and performance tracking</li>
+                                    <li><strong style="color: #0f172a;">Registration System:</strong> Online registration with payment processing, document uploads, and automated approval workflows</li>
+                                    <li><strong style="color: #0f172a;">Scheduling & Calendar:</strong> Practice sessions, matches, and events with automated notifications and calendar integrations</li>
+                                    <li><strong style="color: #0f172a;">Match Reports:</strong> Detailed match analytics, player ratings, and tactical analysis tools</li>
+                                    <li><strong style="color: #0f172a;">Parent Portal:</strong> Real-time updates, photo galleries, and communication tools for parent engagement</li>
+                                    <li><strong style="color: #0f172a;">Financial Management:</strong> Payment tracking, invoicing, and financial reporting</li>
+                                    <li><strong style="color: #0f172a;">Mobile App:</strong> iOS and Android apps for on-the-go access</li>
+                                </ul>
+                            </div>
+                            <div class="project-tags mb-3">
                                 <span class="project-tag">Laravel</span>
                                 <span class="project-tag">Vue.js</span>
                                 <span class="project-tag">MySQL</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.1s;">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="bi bi-hospital"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Healthcare Management System</h3>
-                            <p class="project-description">
-                                Comprehensive hospital management platform with patient records, appointment scheduling, and telemedicine capabilities.
-                            </p>
-                            <div class="project-tags">
-                                <span class="project-tag">React</span>
-                                <span class="project-tag">Node.js</span>
-                                <span class="project-tag">MongoDB</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 3 -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.2s;">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="bi bi-bank"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">FinTech Mobile App</h3>
-                            <p class="project-description">
-                                Modern banking application with biometric authentication, instant transfers, and AI-powered financial insights.
-                            </p>
-                            <div class="project-tags">
-                                <span class="project-tag">Flutter</span>
-                                <span class="project-tag">Firebase</span>
-                                <span class="project-tag">API</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 4 -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.3s;">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="bi bi-camera-video"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Video Streaming Platform</h3>
-                            <p class="project-description">
-                                Netflix-style streaming service with adaptive bitrate streaming, content recommendation engine, and multi-device support.
-                            </p>
-                            <div class="project-tags">
-                                <span class="project-tag">Next.js</span>
-                                <span class="project-tag">AWS</span>
                                 <span class="project-tag">Redis</span>
+                                <span class="project-tag">Pusher</span>
+                                <span class="project-tag">Stripe API</span>
+                                <span class="project-tag">AWS S3</span>
+                                <span class="project-tag">Docker</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 5 -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.4s;">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="bi bi-people"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Social Networking App</h3>
-                            <p class="project-description">
-                                Feature-rich social platform with real-time messaging, stories, live streaming, and advanced privacy controls.
-                            </p>
-                            <div class="project-tags">
-                                <span class="project-tag">React Native</span>
-                                <span class="project-tag">GraphQL</span>
-                                <span class="project-tag">PostgreSQL</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Placeholder for future project -->
-                <div class="col-md-6 col-lg-4 animate-on-scroll" style="transition-delay: 0.5s;">
-                    <div class="project-card" style="opacity: 0.6;">
-                        <div class="project-image">
-                            <i class="bi bi-plus-circle"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">More Projects Coming Soon</h3>
-                            <p class="project-description">
-                                We're constantly working on exciting new projects. Check back soon to see our latest work.
-                            </p>
-                            <div class="project-tags">
-                                <span class="project-tag">Coming Soon</span>
+                            <div class="d-flex gap-3 flex-wrap">
+                                <a href="https://www.sanjoserush.com/" target="_blank" class="btn btn-primary-custom btn-sm">
+                                    <i class="bi bi-globe me-2"></i>View Website
+                                </a>
+                                <a href="https://app.sportwyse.com/" target="_blank" class="btn btn-outline-custom btn-sm">
+                                    <i class="bi bi-box-arrow-up-right me-2"></i>View Platform
+                                </a>
                             </div>
                         </div>
                     </div>
