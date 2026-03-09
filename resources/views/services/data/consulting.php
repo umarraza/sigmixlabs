@@ -66,15 +66,4 @@ return [
             'desc'  => 'Establishing KPI frameworks, dashboards, and measurement disciplines so every technology investment can be tracked, justified, and optimised for maximum business value.',
         ],
     ],
-    'toolsTitle' => 'Our Consulting <span>Tools & Platforms.</span>',
-    'tools' => [
-        ['icon' => 'jira-icon.svg',     'name' => 'Jira'],
-        ['icon' => 'miro-icon.svg',     'name' => 'Miro'],
-        ['icon' => 'figma-icon.svg',    'name' => 'Figma'],
-        ['icon' => 'powerbi-icon.svg',  'name' => 'Power BI'],
-        ['icon' => 'aws-icon.svg',      'name' => 'AWS'],
-        ['icon' => 'docker-icon.svg',   'name' => 'Docker'],
-        ['icon' => 'git-icon.svg',      'name' => 'Git'],
-        ['icon' => 'gitlab-icon.svg',   'name' => 'GitLab'],
-    ],
 ];

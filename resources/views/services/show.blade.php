@@ -215,6 +215,7 @@ $s = require base_path('resources/views/services/data/' . $slug . '.php');
     <!-- End Service Features Section -->
 
     <!-- Start Tools Section -->
+    @if(!empty($s['tools']))
     <div class="service-details-tools-section mb-120">
         <div class="container">
             <div class="row mb-60">
@@ -246,6 +247,7 @@ $s = require base_path('resources/views/services/data/' . $slug . '.php');
             </div>
         </div>
     </div>
+    @endif
     <!-- End Tools Section -->
 
     <!-- Start Contact section -->
