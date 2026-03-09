@@ -18224,14 +18224,22 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
+  gap: 6px;
   line-height: 1;
-  padding: 32px 20px;
+  padding: 0 12px;
+  height: 60px;
+  white-space: nowrap;
+}
+.service-details-tools-section .tools-card .tools-icon img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 .service-details-tools-section .tools-card .tools-name span {
   color: var(--dark-title-color);
   font-family: var(--font-inter);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;

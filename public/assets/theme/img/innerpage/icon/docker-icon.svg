@@ -1,0 +1,10 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="50" height="50" rx="8" fill="#2496ED"/>
+  <!-- Container stack -->
+  <rect x="7"  y="21" width="10" height="8" rx="1.5" fill="white"/>
+  <rect x="19" y="21" width="10" height="8" rx="1.5" fill="white"/>
+  <rect x="19" y="11" width="10" height="8" rx="1.5" fill="white"/>
+  <rect x="31" y="21" width="10" height="8" rx="1.5" fill="white"/>
+  <!-- Whale tail -->
+  <path d="M38 30 Q44 28 46 22 Q43 24 40 23" fill="white"/>
+</svg>
