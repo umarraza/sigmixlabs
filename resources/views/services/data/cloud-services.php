@@ -50,13 +50,4 @@ return [
         ['icon' => 2, 'title' => 'DevSecOps & CI/CD',                'desc' => 'Automated deployment pipelines with integrated SAST/DAST scanning, container image signing, and policy-as-code enforcement at every gate.'],
         ['icon' => 3, 'title' => 'FinOps & Cost Governance',         'desc' => 'Real-time cost visibility dashboards, tagging enforcement, rightsizing recommendations, and Savings Plan strategies that keep cloud spend predictable.'],
     ],
-    'toolsTitle' => 'Our Cloud <span>Technology Stack.</span>',
-    'tools' => [
-        ['icon' => 'aws-icon.svg',        'name' => 'AWS'],
-        ['icon' => 'docker-icon.svg',     'name' => 'Docker'],
-        ['icon' => 'gitlab-icon.svg',     'name' => 'GitLab CI'],
-        ['icon' => 'git-icon.svg',        'name' => 'Terraform / Git'],
-        ['icon' => 'python-icon.svg',     'name' => 'Python'],
-        ['icon' => 'typescript-icon.svg', 'name' => 'TypeScript'],
-    ],
 ];
