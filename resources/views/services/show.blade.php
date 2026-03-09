@@ -18,7 +18,7 @@ $fi = [
 ];
 
 // ── Load service data ─────────────────────────────────────────────────────────
-$allowed = ['web-development', 'consulting', 'cyber-security'];
+$allowed = ['web-development', 'consulting', 'cyber-security', 'e-commerce', 'data-analytics', 'cloud-services'];
 if (!in_array($slug, $allowed)) { abort(404); }
 $s = require base_path('resources/views/services/data/' . $slug . '.php');
 @endphp
