@@ -15,3 +15,6 @@ Route::get('/services/cyber-security', fn() => view('services.show', ['slug' => 
 Route::get('/services/e-commerce', fn() => view('services.show', ['slug' => 'e-commerce']))->name('service.e-commerce');
 Route::get('/services/data-analytics', fn() => view('services.show', ['slug' => 'data-analytics']))->name('service.data-analytics');
 Route::get('/services/cloud-services', fn() => view('services.show', ['slug' => 'cloud-services']))->name('service.cloud-services');
+Route::get('/services/software-development', fn() => view('services.show', ['slug' => 'software-development']))->name('service.software-development');
+Route::get('/services/ui-ux-design', fn() => view('services.show', ['slug' => 'ui-ux-design']))->name('service.ui-ux-design');
+Route::get('/services/graphic-design', fn() => view('services.show', ['slug' => 'graphic-design']))->name('service.graphic-design');

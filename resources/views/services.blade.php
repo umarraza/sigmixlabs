@@ -196,7 +196,7 @@
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="service-card two">
                         <div class="content">
-                            <h4><a href="service-details.html">Software Development</a></h4>
+                            <h4><a href="{{ route('service.software-development') }}">Software Development</a></h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
                                 <path
                                     d="M52.8537 3.13013H9.39024C8.22764 3.13013 7.2439 4.06915 7.2439 5.27647V10.374H2.14634C0.939024 10.374 0 11.3131 0 12.5204V49.7236C0 50.8862 0.939024 51.87 2.14634 51.87H45.6098C46.7724 51.87 47.7561 50.9309 47.7561 49.7236V44.6261H52.8537C54.0163 44.6261 55 43.687 55 42.4797V5.27647C55 4.06915 54.061 3.13013 52.8537 3.13013ZM9.39024 4.91874H52.8537C53.0325 4.91874 53.2114 5.05289 53.2114 5.27647V11.4472H9.03252V5.27647C9.03252 5.05289 9.21138 4.91874 9.39024 4.91874ZM2.14634 12.1626H7.2439V18.6911H1.78862V12.5204C1.78862 12.3415 1.92276 12.1626 2.14634 12.1626ZM45.9675 49.7236C45.9675 49.9025 45.8333 50.0813 45.6098 50.0813H2.14634C1.96748 50.0813 1.78862 49.9472 1.78862 49.7236V20.4797H7.2439V42.4797C7.2439 43.6423 8.18293 44.6261 9.39024 44.6261H45.9675V49.7236ZM52.8537 42.8374H9.39024C9.21138 42.8374 9.03252 42.7033 9.03252 42.4797V13.2358H53.2114V42.4797C53.2114 42.6586 53.0772 42.8374 52.8537 42.8374Z"/>
@@ -207,7 +207,7 @@
                             </svg>
                             <p>Crafting innovative and scalable solutions through code and user-friendly software for diverse needs.</p>
                         </div>
-                        <a href="service-details.html" class="explore-btn"> EXPLORE MORE 
+                        <a href="{{ route('service.software-development') }}" class="explore-btn"> EXPLORE MORE 
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9">
                                 <path
                                     d="M12.1691 4.97333L0.234337 4.95394C0.172187 4.95394 0.112583 4.9041 0.0686358 4.81538C0.024689 4.72666 0 4.60634 0 4.48087C0 4.35541 0.024689 4.23509 0.0686358 4.14637C0.112583 4.05765 0.172187 4.00781 0.234337 4.00781L12.1694 4.02721C12.2315 4.02721 12.2911 4.07705 12.3351 4.16576C12.379 4.25448 12.4037 4.37481 12.4037 4.50027C12.4037 4.62573 12.379 4.74606 12.3351 4.83478C12.2911 4.92349 12.2313 4.97333 12.1691 4.97333Z"/>
@@ -220,7 +220,7 @@
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="service-card two">
                         <div class="content">
-                            <h4><a href="service-details.html">UI/UX Design</a></h4>
+                            <h4><a href="{{ route('service.ui-ux-design') }}">UI/UX Design</a></h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
                                 <g>
                                     <path
@@ -233,7 +233,7 @@
                             </svg>
                             <p>Providing seamless digital experiences through intuitive user interfaces and attentive user experience design.</p>
                         </div>
-                        <a href="service-details.html" class="explore-btn"> EXPLORE MORE 
+                        <a href="{{ route('service.ui-ux-design') }}" class="explore-btn"> EXPLORE MORE 
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9">
                                 <path
                                     d="M12.1691 4.97333L0.234337 4.95394C0.172187 4.95394 0.112583 4.9041 0.0686358 4.81538C0.024689 4.72666 0 4.60634 0 4.48087C0 4.35541 0.024689 4.23509 0.0686358 4.14637C0.112583 4.05765 0.172187 4.00781 0.234337 4.00781L12.1694 4.02721C12.2315 4.02721 12.2911 4.07705 12.3351 4.16576C12.379 4.25448 12.4037 4.37481 12.4037 4.50027C12.4037 4.62573 12.379 4.74606 12.3351 4.83478C12.2911 4.92349 12.2313 4.97333 12.1691 4.97333Z"/>
@@ -246,7 +246,7 @@
                 <div class="col-lg-4 col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="service-card two">
                         <div class="content">
-                            <h4><a href="service-details.html">Graphic Design</a></h4>
+                            <h4><a href="{{ route('service.graphic-design') }}">Graphic Design</a></h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
                                 <g>
                                     <path
@@ -257,7 +257,7 @@
                             </svg>
                             <p>Visual storytelling through art and technology, crafting compelling designs that captivate, and elevate brand experiences.</p>
                         </div>
-                        <a href="service-details.html" class="explore-btn"> EXPLORE MORE 
+                        <a href="{{ route('service.graphic-design') }}" class="explore-btn"> EXPLORE MORE 
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9">
                                 <path
                                     d="M12.1691 4.97333L0.234337 4.95394C0.172187 4.95394 0.112583 4.9041 0.0686358 4.81538C0.024689 4.72666 0 4.60634 0 4.48087C0 4.35541 0.024689 4.23509 0.0686358 4.14637C0.112583 4.05765 0.172187 4.00781 0.234337 4.00781L12.1694 4.02721C12.2315 4.02721 12.2911 4.07705 12.3351 4.16576C12.379 4.25448 12.4037 4.37481 12.4037 4.50027C12.4037 4.62573 12.379 4.74606 12.3351 4.83478C12.2911 4.92349 12.2313 4.97333 12.1691 4.97333Z"/>
