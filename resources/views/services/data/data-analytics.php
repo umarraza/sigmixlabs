@@ -50,13 +50,4 @@ return [
         ['icon' => 2, 'title' => 'Predictive Analytics & ML',       'desc' => 'Production-grade machine learning models for forecasting, scoring, and classification — with MLOps monitoring to keep them accurate over time.'],
         ['icon' => 3, 'title' => 'Data Governance & Quality',       'desc' => 'Automated data quality checks, lineage tracking, cataloguing, and ownership frameworks so your organisation can trust every data point.'],
     ],
-    'toolsTitle' => 'Our Data <span>Technology Stack.</span>',
-    'tools' => [
-        ['icon' => 'python-icon.svg',     'name' => 'Python'],
-        ['icon' => 'mysql-icon.svg',      'name' => 'SQL / MySQL'],
-        ['icon' => 'typescript-icon.svg', 'name' => 'TypeScript'],
-        ['icon' => 'aws-icon.svg',        'name' => 'AWS'],
-        ['icon' => 'docker-icon.svg',     'name' => 'Docker'],
-        ['icon' => 'gitlab-icon.svg',     'name' => 'GitLab CI'],
-    ],
 ];
