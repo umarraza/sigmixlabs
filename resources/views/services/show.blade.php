@@ -79,7 +79,7 @@ $s = require base_path('resources/views/services/data/' . $slug . '.php');
                     </div>
                     <div class="col-lg-6 order-lg-2 order-1 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="service-details-img">
-                            <img src="{{ asset('assets/theme/img/innerpage/service-details-feature-img.jpg') }}" alt="{{ $s['breadcrumb'] }}">
+                            <img src="{{ asset('assets/theme/img/innerpage/' . ($s['img1'] ?? 'service-details-feature-img.jpg')) }}" alt="{{ $s['breadcrumb'] }}">
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ $s = require base_path('resources/views/services/data/' . $slug . '.php');
                 <div class="row g-lg-4 gy-5 align-items-xl-center">
                     <div class="col-lg-6">
                         <div class="service-details-faq-img">
-                            <img src="{{ asset('assets/theme/img/innerpage/service-details-faq-img.jpg') }}" alt="FAQ">
+                            <img src="{{ asset('assets/theme/img/innerpage/' . ($s['img2'] ?? 'service-details-faq-img.jpg')) }}" alt="FAQ">
                         </div>
                     </div>
                     <div class="col-lg-6">

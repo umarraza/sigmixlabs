@@ -43,6 +43,8 @@ return [
         ['step' => '04', 'title' => 'Guided Execution',          'desc' => 'We provide hands-on PMO oversight, technical governance, and decision-making support to keep delivery on track and on budget.'],
         ['step' => '05', 'title' => 'Review & Optimisation',     'desc' => 'We measure outcomes against agreed KPIs, run retrospectives, and continuously refine the strategy as your business evolves.'],
     ],
+    'img1'         => 'consulting1.jpg',
+    'img2'         => 'consulting2.jpg',
     'featureTitle' => 'IT Consulting <span>Service Capabilities.</span>',
     'featureItems' => [
         [
