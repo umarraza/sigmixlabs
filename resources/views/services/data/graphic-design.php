@@ -43,6 +43,8 @@ return [
         ['step' => '04', 'title' => 'Refinement & Finalisation',  'desc' => 'The chosen direction is refined through structured feedback rounds until every detail — spacing, weight, colour — is precisely right.'],
         ['step' => '05', 'title' => 'Delivery & Guidelines',      'desc' => 'You receive a complete asset package in all required formats alongside a brand guidelines document that governs consistent application across every channel.'],
     ],
+    'img1'         => 'graphic design-1.jpg',
+    'img2'         => 'graphic design-2.jpg',
     'featureTitle' => 'Graphic <span>Design Capabilities.</span>',
     'featureItems' => [
         ['icon' => 0, 'title' => 'Brand Identity Systems',          'desc'  => 'Comprehensive visual identities — logo, colour, typography, imagery — built on strategic foundations and packaged with guidelines for consistent application.'],

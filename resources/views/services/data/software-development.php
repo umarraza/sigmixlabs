@@ -5,6 +5,8 @@ return [
     'breadcrumb'   => 'Software Development',
     'heading'      => 'Software <span>Development.</span>',
     'pageH1'       => 'Bespoke software engineered for performance, scalability, and long-term business impact.',
+    'img1'         => 'software development-1.jpg',
+    'img2'         => 'software development-2.jpg',
     'description'  => 'At Sigmix Labs, we design and build custom software that solves real problems — not off-the-shelf products that force you to adapt your workflow to their limitations. From web applications and internal tools to complex enterprise systems, our engineering teams deliver clean, maintainable code backed by rigorous testing and a deep understanding of your business domain. We work in agile sprints with full transparency, so you always know where your project stands and can adapt priorities as your needs evolve.',
     'features' => [
         'Custom Web & Enterprise Applications',

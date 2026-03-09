@@ -3,6 +3,8 @@
 return [
     'title'        => 'Cloud Services - Sigmix Labs',
     'breadcrumb'   => 'Cloud Services',
+    'img1'         => 'cloud services-1.jpg',
+    'img2'         => 'cloud services-2.jpg',
     'heading'      => 'Cloud <span>Services.</span>',
     'pageH1'       => 'Modern cloud infrastructure — designed for reliability, built for scale, and optimised to keep your costs under control.',
     'description'  => 'Cloud done well is a competitive advantage. Sigmix Labs helps organisations design, migrate, and operate cloud environments on AWS, GCP, and Azure that are genuinely resilient, secure, and cost-efficient. We go beyond lift-and-shift: our cloud engagements encompass infrastructure-as-code, containerisation, serverless architectures, DevSecOps pipelines, and FinOps disciplines. Whether you\'re cloud-native from day one or moving a legacy estate, we build cloud foundations that give your engineering teams the speed and confidence to ship.',

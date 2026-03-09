@@ -3,6 +3,8 @@
 return [
     'title'        => 'E-commerce Solutions - Sigmix Labs',
     'breadcrumb'   => 'E-commerce Solutions',
+    'img1'         => 'e-commerce1.jpg',
+    'img2'         => 'e-commerce2.jpg',
     'heading'      => 'E-commerce <span>Solutions.</span>',
     'pageH1'       => 'High-performance e-commerce platforms built to convert visitors into loyal customers — at any scale.',
     'description'  => 'At Sigmix Labs, we build e-commerce experiences that go far beyond a standard online store. From lightning-fast storefronts and frictionless checkout flows to intelligent product recommendations and seamless third-party integrations, our solutions are engineered to maximise conversion, reduce cart abandonment, and grow your revenue. Whether you\'re launching your first store or re-platforming an enterprise operation, we deliver battle-tested e-commerce architecture that scales with your business.',

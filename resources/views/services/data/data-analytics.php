@@ -3,6 +3,8 @@
 return [
     'title'        => 'Data Analytics - Sigmix Labs',
     'breadcrumb'   => 'Data Analytics',
+    'img1'         => 'data analytics-1.jpg',
+    'img2'         => 'data analytics-2.jpg',
     'heading'      => 'Data <span>Analytics.</span>',
     'pageH1'       => 'Turn raw data into actionable intelligence — and actionable intelligence into measurable business growth.',
     'description'  => 'Data is only valuable when it drives decisions. Sigmix Labs helps organisations move beyond dashboards and reports to build real analytical capability — from data engineering pipelines and warehouse architecture to self-service BI platforms and predictive ML models. We work across the full data value chain: ingestion, transformation, modelling, visualisation, and automation. Whether you\'re starting from scratch or maturing an existing data function, we deliver the infrastructure and insight that make data a genuine competitive advantage.',

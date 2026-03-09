@@ -5,6 +5,8 @@ return [
     'breadcrumb'   => 'UI/UX Design',
     'heading'      => 'UI/UX <span>Design.</span>',
     'pageH1'       => 'Human-centred design that turns complex problems into seamless, intuitive digital experiences.',
+    'img1'         => 'uiuxdesign-1.jpg',
+    'img2'         => 'uiuxdesign-2.jpg',
     'description'  => 'At Sigmix Labs, great design is not decoration — it is strategy. Our UI/UX team combines deep user research, behavioural psychology, and pixel-perfect craft to create digital products that people actually want to use. From early discovery and user interviews through wireframing, interactive prototyping, and high-fidelity UI delivery, we validate every design decision against real user behaviour before a single line of code is committed. The result is products that reduce friction, increase engagement, and achieve measurable business outcomes.',
     'features' => [
         'User Research & Persona Development',
