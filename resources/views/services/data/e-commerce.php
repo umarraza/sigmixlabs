@@ -50,15 +50,4 @@ return [
         ['icon' => 2, 'title' => 'Catalogue, Orders & Fulfilment',         'desc'  => 'End-to-end management of complex product catalogues, multi-warehouse inventory, automated order routing, and real-time shipping rate calculation.'],
         ['icon' => 3, 'title' => 'Analytics & Personalisation',            'desc'  => 'GA4, heatmaps, funnel analysis, and AI-powered recommendations that surface the right products to the right shopper at exactly the right moment.'],
     ],
-    'toolsTitle' => 'Our E-commerce <span>Technology Stack.</span>',
-    'tools' => [
-        ['icon' => 'laravel-icon.svg',    'name' => 'Laravel'],
-        ['icon' => 'vue-icon.svg',        'name' => 'Vue.js'],
-        ['icon' => 'react-icon.svg',      'name' => 'React'],
-        ['icon' => 'tailwind-icon.svg',   'name' => 'Tailwind CSS'],
-        ['icon' => 'nodejs-icon.svg',     'name' => 'Node.js'],
-        ['icon' => 'mysql-icon.svg',      'name' => 'MySQL'],
-        ['icon' => 'docker-icon.svg',     'name' => 'Docker'],
-        ['icon' => 'aws-icon.svg',        'name' => 'AWS'],
-    ],
 ];
