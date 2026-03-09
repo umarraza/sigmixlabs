@@ -43,6 +43,8 @@ return [
         ['step' => '04', 'title' => 'Monitoring & Detection', 'desc' => '24/7 continuous monitoring using advanced analytics and threat intelligence to detect suspicious activities in real time.'],
         ['step' => '05', 'title' => 'Response & Review',      'desc' => 'Structured incident response with post-event analysis, lessons learned, and ongoing improvement of your security programme.'],
     ],
+    'img1'         => 'cybersecurity1.jpg',
+    'img2'         => 'cybersecurity2.jpg',
     'featureTitle' => 'Cyber Security <span>Service Capabilities.</span>',
     'featureItems' => [
         ['icon' => 0, 'title' => 'Vulnerability Assessment & PenTest', 'desc' => 'Systematic identification and ethical exploitation of security weaknesses across networks, applications, and infrastructure to expose real-world risks.'],
