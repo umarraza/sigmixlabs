@@ -1,12 +1,19 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', fn() => view('welcome'))->name('home');
 Route::get('/services', fn() => view('services'))->name('services');
 Route::get('/case-study', fn() => view('case-study'))->name('case-study');
+Route::get('/case-study/sportwyse', fn() => view('case-study.sportwyse'))->name('case-study.sportwyse');
+Route::get('/case-study/sportwyse/gallery', fn() => view('case-study.sportwyse-gallery'))->name('case-study.sportwyse.gallery');
 Route::get('/blog', fn() => view('blog'))->name('blog');
+Route::get('/blog/ai-transforming-business', fn() => view('blog.ai-transforming-business'))->name('blog.ai-transforming-business');
+Route::get('/blog/ml-pipelines-real-time', fn() => view('blog.ml-pipelines-real-time'))->name('blog.ml-pipelines-real-time');
+Route::get('/blog/tech-stack-ai-product', fn() => view('blog.tech-stack-ai-product'))->name('blog.tech-stack-ai-product');
 Route::get('/contact', fn() => view('contact'))->name('contact');
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/about', fn() => view('about'))->name('about');
 
 Route::get('/services/web-development', fn() => view('services.show', ['slug' => 'web-development']))->name('service.web-development');

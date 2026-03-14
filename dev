@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Starting Docker containers..."
+./vendor/bin/sail up -d
+
+echo "Starting Vite..."
+./vendor/bin/sail npm run dev &
+
+echo "Starting queue worker..."
+./vendor/bin/sail artisan queue:work &
+
+echo "Starting scheduler loop..."
+while true
+do
+    ./vendor/bin/sail artisan schedule:run
+    sleep 5
+done &
+
+echo ""
+echo "🚀 Laravel development environment started"
+echo "Application: http://localhost"
+echo "Mailpit:     http://localhost:8025"
